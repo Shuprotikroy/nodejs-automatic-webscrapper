@@ -1,0 +1,19 @@
+{
+  "name": "covidscrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scrapper.js",
+  "scripts": {
+    "start": "nodemon scrapper.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.6",
+    "csv-writer": "^1.6.0",
+    "nodemon": "^2.0.7",
+    "puppeteer": "^8.0.0",
+    "toad-scheduler": "^1.0.2"
+  }
+}
